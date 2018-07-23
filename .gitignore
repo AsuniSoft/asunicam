@@ -1,0 +1,10 @@
+node_modules
+AsuniCam-darwin-x64
+AsuniCam-linux-arm64
+AsuniCam-linux-armv7l
+AsuniCam-linux-ia32
+AsuniCam-linux-x64
+AsuniCam-mas-x64
+AsuniCam-win32-ia32
+AsuniCam-win32-x64
+.vscode
