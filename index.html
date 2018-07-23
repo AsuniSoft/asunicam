@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8'>
+    <title>asunicam</title>
+    <link rel='stylesheet' type='text/css' href='style.css'>
+  </head>
+
+  <body class='body'>
+    <div id='errorMessage' style='visibility: hidden'>
+      <p class='error'>No input video device detected :(</p>
+    </div>
+
+    <div class='center' id='selectMessage' style='visibility: hidden'>
+      <br/><br/><br/><br/>
+      <br/><br/><br/><br/>
+      <p>Multiple input video devices detected, select one:</p><br/>
+      <ul id='selectionList'></ul>
+    </div>
+
+    <video id='video' class='liveVideo' autoplay='true' style='visibility: hidden'></video>
+
+    <script>
+      // You can also require other files to run in this process
+      require('./js/renderer.js');
+    </script>
+  </body>
+</html>

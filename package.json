@@ -1,0 +1,23 @@
+{
+  "name": "asunicam",
+  "version": "1.0.0",
+  "description": "Asuni minimalist webcam viewer",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/AsuniCAD/asunicam",
+  "keywords": [
+    "Electron",
+    "asuni",
+    "webcam"
+  ],
+  "author": "storro",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "electron": "^2.0.0"
+  },
+  "dependencies": {
+    "electron-config": "^1.0.0"
+  }
+}
