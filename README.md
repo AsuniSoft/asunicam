@@ -40,6 +40,12 @@ You need all development prerequisites plus *electron-packager*, install it. The
 npm install electron-packager -g
 ```
 
+And remember to install all needed dependencies before package build. At project root do:
+
+```cli
+npm install
+```
+
 ### Build on all Platforms
 
 ```cli
