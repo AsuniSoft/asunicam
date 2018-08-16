@@ -4,7 +4,7 @@ Asuni minimalist webcam viewer, powered by [Electron](https://electronjs.org)
 
 ## Usage
 
-The first time, if there are more than one camera, a simple list with the detected devices will be shown. Just use numbers (1-9) to select the video output. Its ID will be stored at %APPDATA%/asunicam/config.json.
+The first time, if there are more than one camera, a simple list with the detected devices will be shown. Just use numbers (1-9) to select the video input. Its ID will be stored at %APPDATA%/asunicam/config.json.
 
 If you delete this file the software will ask you again when detected multiple video inputs. Anyway you can change the input using numbers (1-9) at any time if the devices are still plugged. When you select a device, the configuration file is updated, so the next time you execute the app the last video device will be used.
 
